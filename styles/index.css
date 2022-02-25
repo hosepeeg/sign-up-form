@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    color:white;
+    outline: red solid 1px;
 }
 
 .content{
@@ -10,9 +12,9 @@
     display: flex;
 }
 
-.content p{
+.logo + p{
     font-size: .8rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255);
     bottom: 0px;
     right: 5px;
     position: absolute;
@@ -60,12 +62,18 @@
     align-items: start;
     flex-grow: 2;
     background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.dummy-text{
+    padding: 2vw;
 }
 
 
 
 /*Mobile */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 750px) {
     .content{
         flex-direction: column;
     }
