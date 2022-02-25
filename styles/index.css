@@ -76,15 +76,21 @@
     width: 60vw;
     flex-direction: column;
     text-align: center;
-    padding-top: 5vh;
+    padding-top: 4vh;
     padding-bottom: 5vh;
+}
+
+.input-section p{
+    margin-bottom: 2vh;
+    font-size: 1.5rem;
+
 }
 
 form{
     display: flex;
     width: 60vw;
     flex-flow: row wrap;
-    gap: 1rem;
+    gap: 3rem;
     font-size: 1rem;
     justify-content: center;
 }
@@ -96,6 +102,7 @@ input{
     font-size: .9rem;
     margin-top: 3px;
     background-color: rgb(31, 31, 31);
+    width: 20vw;
 }
 
 label{
@@ -117,6 +124,7 @@ button[type='submit'] {
     border-radius: 10px;
     color: white;
     letter-spacing: -1px;
+    margin-bottom: 1vh;
 }
 
 a{
