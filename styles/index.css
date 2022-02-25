@@ -83,7 +83,6 @@
 .input-section p{
     margin-bottom: 2vh;
     font-size: 1.5rem;
-
 }
 
 form{
@@ -140,11 +139,16 @@ a{
 
     .right, .input-section{
         width: 100vw;
+        align-items: center;
     }
 
 
     .left {
         width: 100vw;
         height: 20rem;
+    }
+
+    input{
+        width: 30vw;
     }
 }
